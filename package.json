@@ -1,0 +1,28 @@
+{
+  "name": "schedule",
+  "version": "1.0.0",
+  "description": "the 2nd module of 2nd term",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "live-server src",
+    "doc": "jsdoc -c jsdoc.conf.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrvotum/schedule.git"
+  },
+  "keywords": [
+    "msupa"
+  ],
+  "author": "Vladimir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrvotum/schedule/issues"
+  },
+  "homepage": "https://github.com/mrvotum/schedule#readme",
+  "devDependencies": {
+    "jsdoc": "^3.5.5",
+    "live-server": "^1.2.1"
+  }
+}
