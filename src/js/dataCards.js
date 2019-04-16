@@ -1,3 +1,5 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable no-multi-spaces */
 import { dataBase } from './dataBase';
 
 const freeDay = true;
@@ -6,12 +8,12 @@ const dataCards = [
   [  // воскресенье
     [
       freeDay,
-    ]
+    ],
   ], // воскресенье
   [  // понедельник
     [
       freeDay,
-    ]
+    ],
   ],  // понедельник
   [   // вторник
     [
@@ -27,7 +29,7 @@ const dataCards = [
       dataBase[2][0],
       dataBase[3][0],
       dataBase[4][0],
-    ]
+    ],
   ],  // вторник
   [   // среда
     [
@@ -43,7 +45,7 @@ const dataCards = [
       dataBase[2][1],
       dataBase[3][1],
       dataBase[4][1],
-    ]
+    ],
   ],  // среда
   [   // четверг
     [
@@ -66,7 +68,7 @@ const dataCards = [
       dataBase[2][3],
       dataBase[3][3],
       dataBase[4][3],
-    ]
+    ],
   ],  // четверг
   [   // пятница
     [
@@ -82,7 +84,7 @@ const dataCards = [
       dataBase[2][4],
       dataBase[3][3],
       dataBase[4][0],
-    ]
+    ],
   ],  // пятница
   [   // суббота
     [
@@ -105,9 +107,8 @@ const dataCards = [
       dataBase[2][4],
       dataBase[3][1],
       dataBase[4][0],
-    ]
+    ],
   ],  // суббота
 ];
-
 
 export default dataCards;

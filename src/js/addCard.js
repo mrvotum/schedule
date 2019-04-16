@@ -1,19 +1,20 @@
+/* eslint-disable linebreak-style */
 import dataCards from './dataCards';
 
 const mainHolder = document.querySelector('[data-main=mainHolder]');
 
-export default function addCard(day){
+export default function addCard(day) {
   const subCount = dataCards[day].length; // кол-во пар
-  
-  for (let i = 0; i < subCount; i++){
+
+  for (let i = 0; i < subCount; i += 1) {
     const cardEl = document.createElement('div');
     cardEl.className = 'shedule__card';
 
-    if(dataCards[day][i][0] === true){ // если нет занятий
+    if (dataCards[day][i][0] === true) { // если нет занятий
       cardEl.innerHTML = `
         <div class="dayOff"><span>Нет занятий</span></div>`;
       mainHolder.appendChild(cardEl);
-      break
+      break;
     }
 
     cardEl.innerHTML = `
