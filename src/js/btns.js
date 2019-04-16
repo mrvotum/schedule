@@ -1,6 +1,6 @@
-import dataCards from './dataCards.js';
-import addCard from './addCard.js';
-import { days } from './dataBase.js';
+import dataCards from './dataCards';
+import addCard from './addCard';
+import { days } from './dataBase';
 
 const date = new Date();
 let weekDay = date.getDay(); // день недели

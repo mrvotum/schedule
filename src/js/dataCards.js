@@ -1,4 +1,4 @@
-import { dataBase } from './dataBase.js';
+import { dataBase } from './dataBase';
 
 const freeDay = true;
 
@@ -22,7 +22,7 @@ const dataCards = [
       dataBase[4][0],
     ],
     [
-      dataBase[0][5],
+      dataBase[0][4],
       dataBase[1][1],
       dataBase[2][0],
       dataBase[3][0],
@@ -38,7 +38,7 @@ const dataCards = [
       dataBase[4][1],
     ],
     [
-      dataBase[0][5],
+      dataBase[0][4],
       dataBase[1][0],
       dataBase[2][1],
       dataBase[3][1],

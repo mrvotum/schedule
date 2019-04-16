@@ -1,6 +1,6 @@
-import { moveRight, moveLeft } from './btns.js';
-import addCard from './addCard.js';
-import { days } from './dataBase.js';
+import { moveRight, moveLeft } from './btns';
+import addCard from './addCard';
+import { days } from './dataBase';
 
 const dataWeek = document.querySelector('[data-time=data_week]');
 

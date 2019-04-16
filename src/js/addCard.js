@@ -1,4 +1,4 @@
-import dataCards from './dataCards.js';
+import dataCards from './dataCards';
 
 const mainHolder = document.querySelector('[data-main=mainHolder]');
 

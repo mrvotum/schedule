@@ -82,3 +82,4 @@ typings/
 dist
 coverage
 docs
+_webpack
